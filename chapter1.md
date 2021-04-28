@@ -1,4 +1,4 @@
-# Chapter 1
+# Chapter 1: Introduction
 
 In this chapter we will briefly introduce the background of the Python package Pandas. 
 We will go through the essential features of Pandas, its pros and cons, and some 
@@ -70,7 +70,7 @@ C-bindding feature of pandas will largely help the user to process the data effi
 
 3. **Data analysis**
 
-Pandas contains a number of statistical tools such as average, counting, variance and so on 
+Pandas contains a number of statistical tools such as average, kurtosis, variance and so on 
 which helps user to extract some preliminary statistical features in the data. It also has 
 the backend of matplotlib where users can generate sophisticated visualization within a few
 lines of codes. Furthermore, it remains the flexibility of fine-tuning the figures for 
@@ -80,15 +80,45 @@ presentation in different scenarios.
 
 As a tool for panel data or relational database, Pandas allows users to make query about certain
 entries or a subset of the table for further processing. It also allows users to merge multiple
-tables or to split a table into multiple tables easily. On top of that, 
+tables or to split a table into multiple tables easily. On top of that, there are options such 
+as feeding data through a set of pipeline procedure or generating pivot table from the dataframe.
 
-## Pros and Cons of Pandas
+
+## Features of Pandas
 
 * Efficiency
 
+The C-binding of Pandas makes the iteration and process of a large number of data very fast. 
+This feature is particularly notable compared to other standard spreadsheet software, when the 
+table size reaches above 10000 lines or above. One may need to scroll up and down in order to 
+select or filter necessary data because of the interface. On the other hand, the command-line
+approach in Python, and hence Pandas, makes it much faster to go through essential items in 
+the table. 
+
+* Convenience
+
+The integrated environment (data process, analysis and visualization) allows users to achieve 
+a number of tasks by only using Pandas. The notation, which is similar to MySQL in data query, 
+provides a direct approach to access, select and filter useful part from a large dataset. 
+
+* Simplicity
+
+One of the main benefits of using Pandas is its easy-to-learn commands. Most commands are written 
+in a pythonic way, and therefore the codes can be presented in a human-readable way. This makes the 
+details of the data process very clear. This feature is particularly clear when we use workbook-like
+platform such as Jupyter notebook, where we can examine the intermediate results so that we can 
+present and design a clean procedure for others to understand the logic of the data process. 
 
 ## Other packages
 
+Even though this ebook is fully on Pandas, I should also point out that there are other numerical 
+packages in Python which is used in handling a large dataset. One of which is 
+[Datatable](https://github.com/h2oai/datatable).
+The syntax in Datatable is very similar to MySQL such as the use of **SELECT**, **WHERE**, 
+**ORDER BY** and so on. However, Datatable does not fully replicate all functionality 
+from SQL-type software. And it does not contain  statistical analysis tools and 
+visualization backend as in Pandas. Thus Datatable is more specialized in processing large 
+datasets. 
 
 
 ## Before using Pandas
@@ -121,6 +151,15 @@ the first time we use the library. Other libraries can be installed in the same 
 Nowadays software is updating in an unprecedented rate that almost everyday there are some new 
 patches for some software package available. It is very possible that the exact version of your 
 package when you read this book, the version is already outdated. As long as the functionality 
-described available in your version, it will be fine for the practice purpose. 
+described is available in your version of package, it will be fine for the practice purpose. 
 
 ## The Best Way to Learn
+
+Just like all other textbooks in programming you may have encountered, the best way to make 
+the data processing skills using Pandas will be to practice while you read this book! I encourage
+all readers to follow the short code examples and type them on your own machine for practice.
+Besides the code examples, I also included a number of coding exercises at the end of 
+each chapter. Certainly, I strongly encourage all readers to try solving one or two to 
+check that the new ideas are firmly grasped in the process. 
+
+Have fun in the exploration of Pandas!

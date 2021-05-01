@@ -4,6 +4,8 @@ In this chapter, we will go through the fundamental steps in constructing your o
 tables. We will examine the command **DataFrame** and **read_csv** and go through 
 how we can convert different types of data into a dataframe.
 
+
+
 ## Why DataFrame?
 
 Before we start, one may question what is so special about **DataFrame**. Dataframe is 
@@ -15,6 +17,8 @@ In Pandas, another main datatype is called **Series**. It is in general a one-di
 array data with each entry corresponding to a key. Therefore a series can be viewed
 as a slice of a dataframe. Since most options available in series are a subset of that 
 of the DataFrame, we do not explicitly discuss series in this book. 
+
+
 
 ## Build a table from a dictionary
 
@@ -64,9 +68,9 @@ that the dataframe can contain numerical and alphabetical input.
 
 The results of df can be immediately checked by printing the object out.
 
-|![Results of df](https://github.com/scleung-astro/learning_pandas_from_zero/blob/main/figures/chapter2_fig1.png)|
-|-|
-|Figure 1: Output of the dataframe df|
+| ![Results of df](figures/chapter2_fig1.png) |
+| ------------------------------------------- |
+| Figure 1: Output of the dataframe df        |
 
 One thing to notice is that Pandas by default assign integers 0, 1, 2 and so on as 
 the keys for the entry when there is no specification during declaration. In some
@@ -81,6 +85,8 @@ When we check the variable type of df by typing
 type(df)
 ```
 we will receive the class 'pandas.core.frame.DataFrame'.
+
+
 
 ## Build a table from a list
 
@@ -111,6 +117,8 @@ using dictionary, including:
 The result dataframe will be identical to Figure 1. Again, this will be very helpful 
 to practice once on your own the whole dataframe declaration!
 
+
+
 ### What if we omit the column setting?
 
 In the version using list, you might have noticed the notation *columns=column_names* is 
@@ -132,9 +140,9 @@ df = pd.DataFrame(data)
 
 When we print the dataframe again, this time we obtain something like: 
 
-|![Results of df](https://github.com/scleung-astro/learning_pandas_from_zero/blob/main/figures/chapter2_fig2.png)|
-|-|
-|Figure 2: Output of the dataframe df without column names|
+| ![Results of df](figures/chapter2_fig2.png)               |
+| --------------------------------------------------------- |
+| Figure 2: Output of the dataframe df without column names |
 
 From this it becomes clear that Pandas by default name all rows and columns by integers
 0, 1, 2. When the user offers lists of column names or row names, Pandas will overwrite
@@ -162,9 +170,10 @@ df = pd.DataFrame(data, columns=column_names, index=index_names)
 
 When we examine the dataframe, we will obtain
 
-|![Results of df](https://github.com/scleung-astro/learning_pandas_from_zero/blob/main/figures/chapter2_fig3.png)|
-|-|
-|Figure 3: Output of the dataframe df with index and column names|
+| ![Results of df](figures/chapter2_fig3.png)                  |
+| ------------------------------------------------------------ |
+| Figure 3: Output of the dataframe df with index and column names |
+
 
 
 ### Other types of data available
@@ -173,6 +182,8 @@ It is also possible to pass a JSON type data, as it has a structure very similar
 dictionary, to create a dataframe. However, we do not discuss the detailed process
 as treating JSON type data will involve further notation used in *json* module 
 and other web fetching interface in order to achieve a complete discussion. 
+
+
 
 ## Build a dataframe from a csv file
 
@@ -190,9 +201,9 @@ after each comma or otherwise the machine might confuse the comma as a necessary
 part in the string. In Figure 4 we show an example where we convert the table used
 in this chapter into a csv file. 
 
-|![Results of df](https://github.com/scleung-astro/learning_pandas_from_zero/blob/main/figures/chapter2_fig4.png)|
-|-|
-|Figure 4: An example of a csv file|
+| ![Results of df](figures/chapter2_fig4.png) |
+| ------------------------------------------- |
+| Figure 4: An example of a csv file          |
 
 Python has package specific for processing and reading csv file. For Pandas, we do need
 to call that module explicitly as Pandas contains all tools necessary for configuring 
@@ -229,6 +240,8 @@ The procedure is simpler than using list and dictionary because most data input
 effort is done while preparing the csv file. We will obtain a dataframe identical 
 to Figure 1 of this chapter. 
 
+
+
 ## Build a dataframe from an excel file
 
 The last command we want to discuss in this chapter is to ask pandas to read 
@@ -248,9 +261,9 @@ Again, we will use the same table (Table 1) as a reference to demonstrate how
 to read the excel file. We will first prepare an excel file containing all entry
 in the table (Figure 5). 
 
-|![Results of df](https://github.com/scleung-astro/learning_pandas_from_zero/blob/main/figures/chapter2_fig5.png)|
-|-|
-|Figure 5: An example of an excel file|
+| ![Results of df](figures/chapter2_fig5.png) |
+| ------------------------------------------- |
+| Figure 5: An example of an excel file       |
 
 Then we will use the command 
 
@@ -281,12 +294,24 @@ df = pd.read_excel(filename)
 
 When we output the datafile to check, we will obtain identical results as Figure 1.
 
+
+
 ## Summary
 
-In this chapter we have explored multiple ways to generate a dataframe by using 
-data available in a list, a dictionary, a csv file and an excel file. We have learnt
-that the index (key) and column names are changeable in Pandas, and are not necessarily
-letters or integers. 
+In this chapter we have explored multiple ways to generate a dataframe by using data available in a list, a dictionary, a csv file and an excel file. We have learnt that the index (key) and column names are changeable in Pandas, and are not necessarily letters or integers. We have covered three essential methods in the Pandas package, including:
+
+```python
+# Passing iterables (list, dictionary) to a dataframe
+df = pandas.DataFrame(data, ...)
+
+# Ask Pandas to read a csv file and generate a dataframe
+df = pandas.read_csv(csv_file, ...)
+
+# Ask Pandas to read an excel file and generate a dataframe
+df = pandas.read_excel(excel_file, ...)
+```
+
+
 
 ## Exercises 
 
@@ -297,8 +322,8 @@ Pandas with real-life examples as a drive. The solutions of the exercises are av
 in the **solution** chapter. 
 
 1. Your friend gave you a table like Table 2 (below). 
- 
-| Name  | ID  | Age | Gender | 
+
+| Name  | ID  | Age | Gender |
 | ----- | --  | --- | ------ |
 | Ann   | A01 | 20  |    F   |
 | Ben   | A02 | 35  |    M   |
@@ -321,7 +346,6 @@ a new list or modifying the csv file?
 3. Your friend tried to copy the code and made a csv file for that. Now your friend 
 wants to make the table shorter by skipping the first two entries (No Ann and Ben).
 But your friend wants to keep the column names. What will you suggest? 
-
 
 
 

@@ -1,3 +1,7 @@
+# Shing Chi Leung's Learning Pandas from Zero
+
+
+
 # Chapter 3: Calling elements in the DataFrame
 
 In the previous chapter we have examined multiple ways to set up a dataframe from an existing dataset of a table. We showed that by printing the dataframe, it displays the whole table. However, in general, we will often need to access a subset of the table for process or analysis. In this chapter, we will discuss a few ways to achieve that. 

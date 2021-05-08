@@ -200,17 +200,17 @@ Table 2: Comparison of using three index notations in three element calling meth
 1. Given the dataframe *df* below (See Table 3), work in mind and then on a Python interpreter the expected output.
 
    ```python
-   # exercise on iloc
+   # exercises on iloc
    df.iloc[2,4]
    df.iloc[1:3,2:3]
    df.iloc[[1,3,4],[3,2]]
    
-   # exercise on loc
+   # exercises on loc
    df.loc["C","Bart"]
    df.loc["Bart":"Chris", "C":"D"]
    df.loc[["Dane", "Bart"]]
    
-   # exercise on column name as index and attribute
+   # exercises on column name as index and attribute
    df["Ann2"]
    df.Ann2
    df["A":"B"]

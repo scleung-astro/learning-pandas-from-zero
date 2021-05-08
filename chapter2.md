@@ -315,11 +315,9 @@ df = pandas.read_excel(excel_file, ...)
 
 ## Exercises 
 
-The exercises of this eBook has two functions. First, they serve as a reinforcement 
-opportunities to practice some of the coding skills presented in that chapter. Second,
-they serve as a prompt for readers to explore different functionality available in 
-Pandas with real-life examples as a drive. The solutions of the exercises are available
-in the **solution** chapter. 
+The exercises of this eBook has two functions. First, they serve as a reinforcement opportunities to practice some of the coding skills presented in that chapter. Second, they serve as a prompt for readers to explore different functionality available in Pandas with real-life examples as a drive. The solutions of the exercises are available in the **solution** chapter. 
+
+
 
 1. Your friend gave you a table like Table 2 (below). 
 
@@ -339,13 +337,13 @@ Try to use
 
 to pass the data to a dataframe object. 
 
-2. If we want to make the output similar to Figure 3 for the case of a csv or an excel 
-file in Exercise 1, which setting should we try to use? Can you do it by adding 
-a new list or modifying the csv file? 
 
-3. Your friend tried to copy the code and made a csv file for that. Now your friend 
-wants to make the table shorter by skipping the first two entries (No Ann and Ben).
-But your friend wants to keep the column names. What will you suggest? 
+
+2. If we want to make the output similar to Figure 3 for the case of a csv or an excel file in Exercise 1, which setting should we try to use? Can you do it by adding a new list or modifying the csv file? 
+
+  
+
+3. Your friend tried to copy the code and made a csv file for that. Now your friend wants to make the table shorter by skipping the first two entries (No Ann and Ben). But your friend wants to keep the column names. What will you suggest? 
 
 
 

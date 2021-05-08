@@ -1,3 +1,7 @@
+# Shing Chi Leung's Learning Pandas from Zero 
+
+
+
 # Chapter 1: Introduction
 
 In this chapter we will briefly introduce the background of the Python package Pandas. We will go through the essential features of Pandas, its pros and cons, and some pre-requisite knowledge before our exploration in Pandas.

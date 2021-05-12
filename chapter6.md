@@ -26,7 +26,7 @@ corresponds to the dataframe subset where the value in the "Orange" column is le
 
 
 
-| ![Filtering a dataframe with a criterion](C:\Users\ShingChi_Leung\Desktop\PandasCourse\learning_pandas_from_zero-main\figures\chapter6_fig2.png "Filtering a dataframe with a criterion") |
+| ![Filtering a dataframe with a criterion](figures/chapter6_fig2.png "Filtering a dataframe with a criterion") |
 | ------------------------------------------------------------ |
 | Figure 2: Filtering a dataframe with a criterion             |
 
@@ -52,7 +52,7 @@ will give us the dataframe consisting of only Shop 1 because this is the only ro
 
 
 
-| ![Filtering a dataframe with multiple criteria](C:\Users\ShingChi_Leung\Desktop\PandasCourse\learning_pandas_from_zero-main\figures\chapter6_fig3.png "Filtering a dataframe with multiple criteria") |
+| ![Filtering a dataframe with multiple criteria](figures/chapter6_fig3.png "Filtering a dataframe with multiple criteria") |
 | ------------------------------------------------------------ |
 | Figure 3: Filtering a dataframe with multiple criteria       |
 
@@ -68,7 +68,7 @@ In Figure 4, we show how this method can be used to a dataframe of Figure 1.
 
 
 
-| ![Filtering a dataframe with selected values](C:\Users\ShingChi_Leung\Desktop\PandasCourse\learning_pandas_from_zero-main\figures\chapter6_fig4.png "Filtering a dataframe with selected values") |
+| ![Filtering a dataframe with selected values](figures/chapter6_fig4.png "Filtering a dataframe with selected values") |
 | ------------------------------------------------------------ |
 | Figure 4: Filtering a dataframe with selected values         |
 
@@ -92,7 +92,7 @@ But notice that these methods return a new dataframe instead of modifying the or
 
 
 
-| ![Modifying a dataframe in the same column](C:\Users\ShingChi_Leung\Desktop\PandasCourse\learning_pandas_from_zero-main\figures\chapter6_fig5.png "Modifying a dataframe in the same column") |
+| ![Modifying a dataframe in the same column](figures/chapter6_fig5.png "Modifying a dataframe in the same column") |
 | ------------------------------------------------------------ |
 | Figure 5: Modifying a dataframe in the same column           |
 
@@ -108,7 +108,7 @@ The results are shown in Figure 6 for illustration,
 
 
 
-| ![Modifying a dataframe in the same column by multiple values](C:\Users\ShingChi_Leung\Desktop\PandasCourse\learning_pandas_from_zero-main\figures\chapter6_fig6.png "Modifying a dataframe in the same column by multiple values") |
+| ![Modifying a dataframe in the same column by multiple values](figures/chapter6_fig6.png "Modifying a dataframe in the same column by multiple values") |
 | ------------------------------------------------------------ |
 | Figure 6: Modifying a dataframe in the same column by multiple values |
 
@@ -132,7 +132,7 @@ will provide the same dataframe result in Figure 7 using the dataframe in Figure
 
 
 
-| ![Modifying a dataframe in the same row](C:\Users\ShingChi_Leung\Desktop\PandasCourse\learning_pandas_from_zero-main\figures\chapter6_fig7.png "Modifying a dataframe in the same row") |
+| ![Modifying a dataframe in the same row](figures/chapter6_fig7.png "Modifying a dataframe in the same row") |
 | ------------------------------------------------------------ |
 | Figure 6: Modifying a dataframe in the same row              |
 
@@ -150,7 +150,7 @@ to create a new column called "Sum" and its value is the sum of three columns, "
 
 
 
-| ![Creating a new column by operating on multiple columns](C:\Users\ShingChi_Leung\Desktop\PandasCourse\learning_pandas_from_zero-main\figures\chapter6_fig8.png "Creating a new column by operating on multiple columns") |
+| ![Creating a new column by operating on multiple columns](figures/chapter6_fig8.png "Creating a new column by operating on multiple columns") |
 | ------------------------------------------------------------ |
 | Figure 8: Creating a new column by operating on multiple columns |
 
@@ -174,7 +174,7 @@ When we need to modify a partial part of the row, we may need to extract the dat
 
 
 
-| ![Extracting selected rows and overwrite with selected values](C:\Users\ShingChi_Leung\Desktop\PandasCourse\learning_pandas_from_zero-main\figures\chapter6_fig9.png "Extracting selected rows and overwrite with selected values") |
+| ![Extracting selected rows and overwrite with selected values](figures/chapter6_fig9.png "Extracting selected rows and overwrite with selected values") |
 | ------------------------------------------------------------ |
 | Figure 9: Extract rows and replace rows with selected data   |
 
@@ -207,7 +207,7 @@ In Figure 10 we demonstrate how we can combine the *apply* method with this *add
 
 
 
-| ![Extracting selected rows and overwrite by functions](C:\Users\ShingChi_Leung\Desktop\PandasCourse\learning_pandas_from_zero-main\figures\chapter6_fig10.png "Extracting selected rows and overwrite by functions") |
+| ![Extracting selected rows and overwrite by functions](figures/chapter6_fig10.png "Extracting selected rows and overwrite by functions") |
 | ------------------------------------------------------------ |
 | Figure 10: Extract rows and replace rows with selected data  |
 
@@ -232,7 +232,7 @@ We do not need to modify the function being passed. Instead we need to use a lam
 
 
 
-| ![Extracting selected rows and overwrite with multi-argument functions](C:\Users\ShingChi_Leung\Desktop\PandasCourse\learning_pandas_from_zero-main\figures\chapter6_fig11.png "Extracting selected rows and overwrite with multi-argument functions") |
+| ![Extracting selected rows and overwrite with multi-argument functions](figures/chapter6_fig11.png "Extracting selected rows and overwrite with multi-argument functions") |
 | ------------------------------------------------------------ |
 | Figure 11: Extract rows and overwrite with multi-argument functions |
 
@@ -265,7 +265,7 @@ We also demonstrated how to use the *apply* method to modify algebraic data.
 
    
 
-| ![Dataframe for Exercise 1 and 2](C:\Users\ShingChi_Leung\Desktop\PandasCourse\learning_pandas_from_zero-main\figures\chapter6_fig12.png "Dataframe for Exercise 1 and 3") |
+| ![Dataframe for Exercise 1 and 2](figures/chapter6_fig12.png "Dataframe for Exercise 1 and 3") |
 | ------------------------------------------------------------ |
 | Figure 12: Dataframe for Exercises 1 to 3                    |
 

@@ -89,7 +89,7 @@ corresponds to the elements of rows 2, 3, 5 at column 1.
 
 One major difference for *iloc* compared to NumPy array is that we can pass two lists of indices for the row and column simultaneously. We demonstrate this feature in Figure 3. 
 
-| ![passing two lists in iloc method](C:\Users\ShingChi_Leung\Desktop\PandasCourse\learning_pandas_from_zero-main\figures\chapter3_fig3.png) |
+| ![passing two lists in iloc method](figures/chapter3_fig3.png) |
 | ------------------------------------------------------------ |
 | Figure 3: Passing two lists to the *iloc* method to refer to specific rows and columns |
 
@@ -113,13 +113,13 @@ df_loc["Shop 1":"Shop 2", "Apple":"Kiwi"]
 
 to refer to the rows from "Shop 1" to "Shop 2" and columns from "Apple" to "Kiwi". In Figure 4 we display the results on a Jupyter Notebook.
 
-| ![Sub-dataframe using loc method](C:\Users\ShingChi_Leung\Desktop\PandasCourse\learning_pandas_from_zero-main\figures\chapter3_fig3.png "Sub-dataframe using loc method") |
+| ![Sub-dataframe using loc method](figures/chapter3_fig3.png "Sub-dataframe using loc method") |
 | ------------------------------------------------------------ |
 | Figure 4: Calling subset of a dataframe using the *loc* method |
 
 If we pay attention, we may notice a minor difference compared to the *iloc* method. The colon notation here actually includes the end value, which is not the case for the colon notation in the *iloc* method and in NumPy arrays. Also, the *loc* method also allows using two lists for both row and column for reference (See FIgure 5).  
 
-| ![passing two lists to the loc method](C:\Users\ShingChi_Leung\Desktop\PandasCourse\learning_pandas_from_zero-main\figures\chapter3_fig5.png) |
+| ![passing two lists to the loc method](figures/chapter3_fig5.png) |
 | ------------------------------------------------------------ |
 | Figure 5: Passing two lists to the *loc* method for referring to specific rows and columns |
 
@@ -141,19 +141,19 @@ df["Apple"]
 
 And the interpret will return us the results shown in Figure 6. Notice that the output is a *Series* because the data itself is one-dimensional. 
 
-| ![passing lists as index](C:\Users\ShingChi_Leung\Desktop\PandasCourse\learning_pandas_from_zero-main\figures\chapter3_fig6.png) |
+| ![passing lists as index](figures/chapter3_fig6.png) |
 | ------------------------------------------------------------ |
 | Figure 6: Referring to an "index" of a dataframe             |
 
 The list notation gives identical results as in the *loc* and *iloc* methods (See Figure 7).
 
-| ![passing lists as index](C:\Users\ShingChi_Leung\Desktop\PandasCourse\learning_pandas_from_zero-main\figures\chapter3_fig7.png) |
+| ![passing lists as index](figures/chapter3_fig7.png) |
 | ------------------------------------------------------------ |
 | Figure 7: Passing a list to the indices of a dataframe       |
 
 However, the colon notation does not generate similar results. It only returns a frame containing the related column names in the query. In Figure 8 we show the results. So, this is an exception case we need to be aware of when using colon notation.
 
-| ![passing colon notation as index](C:\Users\ShingChi_Leung\Desktop\PandasCourse\learning_pandas_from_zero-main\figures\chapter3_fig8.png) |
+| ![passing colon notation as index](figures/chapter3_fig8.png) |
 | ------------------------------------------------------------ |
 | Figure 8: Passing colon notation to the indices of a dataframe |
 

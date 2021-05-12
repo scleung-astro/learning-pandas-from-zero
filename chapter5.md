@@ -78,7 +78,7 @@ Notice that both returns a Pandas series, which is also an iterable. We can loop
 
 
 
-| ![Querying the indices and columns of a dataframe](C:\Users\ShingChi_Leung\Desktop\PandasCourse\learning_pandas_from_zero-main\figures\chapter5_fig2.png "Querying the indices and columns of a dataframe") |
+| ![Querying the indices and columns of a dataframe](figures/chapter5_fig2.png "Querying the indices and columns of a dataframe") |
 | ------------------------------------------------------------ |
 | Figure 2: Querying the indices and columns of a dataframe    |
 
@@ -96,7 +96,7 @@ to check the data type of each column. The sample result for the table in Figure
 
 
 
-| ![Querying the data types of a dataframe](C:\Users\ShingChi_Leung\Desktop\PandasCourse\learning_pandas_from_zero-main\figures\chapter5_fig3.png "Querying the data types of a dataframe") |
+| ![Querying the data types of a dataframe](figures/chapter5_fig3.png "Querying the data types of a dataframe") |
 | ------------------------------------------------------------ |
 | Figure 3: Querying the data types of a dataframe             |
 
@@ -126,7 +126,7 @@ to ask Pandas to return 5 rows randomly from the dataframe. The number here can 
 
 
 
-| ![Querying a random row in a dataframe](C:\Users\ShingChi_Leung\Desktop\PandasCourse\learning_pandas_from_zero-main\figures\chapter5_fig4.png "Querting a random row in a dataframe") |
+| ![Querying a random row in a dataframe](figures/chapter5_fig4.png "Querting a random row in a dataframe") |
 | ------------------------------------------------------------ |
 | Figure 4: Querying a random row of a dataframe               |
 
@@ -138,7 +138,7 @@ In looking at a table, it is useful to extract the unique values appearing in th
 
 
 
-| ![Querying the unique values and their frequencies of a dataframe](C:\Users\ShingChi_Leung\Desktop\PandasCourse\learning_pandas_from_zero-main\figures\chapter5_fig5.png "Querying the unique values and their frequencies of a dataframe") |
+| ![Querying the unique values and their frequencies of a dataframe](figures/chapter5_fig5.png "Querying the unique values and their frequencies of a dataframe") |
 | ------------------------------------------------------------ |
 | Figure 5: Querying the unique values and their frequencies of a dataframe |
 
@@ -150,7 +150,7 @@ The last useful command introduced in this Chapter is the *describe* method. Thi
 
 
 
-| ![Querying the basic statistics of a dataframe](C:\Users\ShingChi_Leung\Desktop\PandasCourse\learning_pandas_from_zero-main\figures\chapter5_fig6.png "Querying the basic statistics of a dataframe") |
+| ![Querying the basic statistics of a dataframe](figures/chapter5_fig6.png "Querying the basic statistics of a dataframe") |
 | ------------------------------------------------------------ |
 | Figure 6: Querying the basic statistics of a dataframe       |
 

@@ -24,7 +24,7 @@ df.loc["Shop 4"] = ["D", 10, 20, 30]
 
 Since there is no row "Shop 4" existing in the dataframe *df*, Pandas will create a new row where the value of each column corresponds to the element in the list, as shown in Figure 2. However, in passing the list, the length of the list must match the columns exactly, otherwise Python found it invalid and raises an error. 
 
-| ![adding rows to a dataframe by loc](C:\Users\ShingChi_Leung\Desktop\PandasCourse\learning_pandas_from_zero-main\figures\chapter4_fig1.png) |
+| ![adding rows to a dataframe by loc](figures\chapter4_fig1.png) |
 | ------------------------------------------------------------ |
 | Figure 2: Add a row by using a new index key as a reference  |
 
@@ -48,7 +48,7 @@ df = df.append(new_entry, ignore_index=True)
 
 The output dataframe is given in Figure 3. 
 
-| ![Adding new row to dataframe](C:\Users\ShingChi_Leung\Desktop\PandasCourse\learning_pandas_from_zero-main\figures\chapter4_fig3.png "Adding new row to dataframe") |
+| ![Adding new row to dataframe](figures\chapter4_fig3.png "Adding new row to dataframe") |
 | ------------------------------------------------------------ |
 | Fig 3: Adding new rows with blanks to the dataframe          |
 
@@ -85,7 +85,7 @@ The output dataframe is shown in Figure 4.  Similar to adding a new row by a lis
 
 
 
-| ![Adding a column to a dataframe](C:\Users\ShingChi_Leung\Desktop\PandasCourse\learning_pandas_from_zero-main\figures\chapter4_fig4.png "Adding a column to a dataframe") |
+| ![Adding a column to a dataframe](figures\chapter4_fig4.png "Adding a column to a dataframe") |
 | ------------------------------------------------------------ |
 | Figure 4: Adding a new column by the index feature of Pandas. |
 
@@ -124,7 +124,7 @@ df.loc["Shop 2":"Shop 3", "Apple"] = [2, 3]
 
 
 
-| ![Modifying elements in a dataframe](C:\Users\ShingChi_Leung\Desktop\PandasCourse\learning_pandas_from_zero-main\figures\chapter4_fig5.png "Modifying elements in a dataframe") |
+| ![Modifying elements in a dataframe](figures\chapter4_fig5.png "Modifying elements in a dataframe") |
 | ------------------------------------------------------------ |
 | Figure 5: Modifying elements in a dataframe                  |
 
@@ -146,7 +146,7 @@ will rewrite the original dataframe to that shown in Figure 6.
 
 
 
-| !["Replacing a row in a dataframe"](C:\Users\ShingChi_Leung\Desktop\PandasCourse\learning_pandas_from_zero-main\figures\chapter4_fig6.png "Replacing a row in a dataframe") |
+| !["Replacing a row in a dataframe"](figures\chapter4_fig6.png "Replacing a row in a dataframe") |
 | ------------------------------------------------------------ |
 | Figure 6: Replacing a row in a dataframe                     |
 
@@ -166,7 +166,7 @@ df.Kiwi = [35,12,37]	# or df["Kiwi"]
 
 
 
-| !["Replacing a column in a dataframe"](C:\Users\ShingChi_Leung\Desktop\PandasCourse\learning_pandas_from_zero-main\figures\chapter4_fig7.png "Replacing a column in a dataframe") |
+| !["Replacing a column in a dataframe"](figures\chapter4_fig7.png "Replacing a column in a dataframe") |
 | ------------------------------------------------------------ |
 | Figure 7: Replacing a column in a dataframe                  |
 
@@ -208,7 +208,7 @@ The modified dataframe *df*  is shown in Figure 8. When we want to delete multip
 
 
 
-| ![Delete a column in a dataframe](C:\Users\ShingChi_Leung\Desktop\PandasCourse\learning_pandas_from_zero-main\figures\chapter4_fig8.png "Delete a column in a dataframe") |
+| ![Delete a column in a dataframe](figures\chapter4_fig8.png "Delete a column in a dataframe") |
 | ------------------------------------------------------------ |
 | Figure 8: Delete a column in a dataframe                     |
 
@@ -238,7 +238,7 @@ Both commands will modified the dataframe in the state displayed in Figure 9.
 
 
 
-| ![Renaming columns in a dataframe](C:\Users\ShingChi_Leung\Desktop\PandasCourse\learning_pandas_from_zero-main\figures\chapter4_fig9.png "Renaming columns in a dataframe") |
+| ![Renaming columns in a dataframe](figures\chapter4_fig9.png "Renaming columns in a dataframe") |
 | ------------------------------------------------------------ |
 | Figure 8: Renaming columns in a dataframe                    |
 
